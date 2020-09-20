@@ -21,7 +21,7 @@ docker build -t <image-name>:stag --build-arg configuaration="staging" .
 ### 2. Run image
 
 ```
-docker run -d -p 80:80 <image-name>:prod
+docker run -d -p 80:80 <image-name>:<tag>
 ```
 
 # Dockerfile
